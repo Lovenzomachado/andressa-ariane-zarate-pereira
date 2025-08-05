@@ -1,36 +1,28 @@
 <!DOCTYPE html>
-<html lang="pt-BR">
+<html lang="en">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Dentica - Dental Care Services</title>
+    <title>SmileBright - Expert Dental Care</title>
     <link rel="stylesheet" href="styles.css">
-    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap" rel="stylesheet">
 </head>
 <body>
     <!-- Header -->
     <header class="header">
-        <div class="header-top">
-            <div class="container">
-                <div class="header-left">
-                    <div class="contact-info">
-                        <span><i class="fas fa-phone"></i> Call Us Now: (555) 123-4567</span>
-                        <span><i class="fas fa-map-marker-alt"></i> 605 Park Drive</span>
-                        <span><i class="fas fa-clock"></i> Monday - Saturday</span>
-                    </div>
-                </div>
-                <div class="header-right">
-                    <div class="social-icons">
-                        <a href="#"><i class="fab fa-facebook"></i></a>
-                        <a href="#"><i class="fab fa-twitter"></i></a>
-                        <a href="#"><i class="fab fa-instagram"></i></a>
-                        <a href="#"><i class="fab fa-youtube"></i></a>
-                    </div>
-                    <div class="menu-toggle">
-                        <i class="fas fa-bars"></i>
-                    </div>
+        <div class="container">
+            <div class="nav-brand">
+                <div class="logo">
+                    <div class="logo-icon">🦷</div>
+                    <span class="logo-text">SmileBright</span>
                 </div>
             </div>
+            <nav class="nav-menu">
+                <a href="#about" class="nav-link">About us</a>
+                <a href="#services" class="nav-link">Our services</a>
+                <a href="#team" class="nav-link">The team</a>
+                <a href="#contact" class="nav-link contact-btn">Contact us</a>
+            </nav>
         </div>
     </header>
 
@@ -39,65 +31,24 @@
         <div class="container">
             <div class="hero-content">
                 <div class="hero-text">
-                    <h1 class="hero-title">Brighten Your Smile Every Day</h1>
-                    <p class="hero-subtitle">Dentica provides comprehensive dental care services for the whole family. Our experienced team uses the latest technology to deliver high-quality.</p>
-                    <button class="cta-button">BOOK AN APPOINTMENT</button>
-                </div>
-                <div class="hero-image">
-                    <img src="/placeholder.svg?height=500&width=400" alt="Smiling woman with toothbrush" class="main-image">
-                    <div class="before-after-overlay">
-                        <div class="before-after-slider">
-                            <span class="before-label">Before</span>
-                            <span class="after-label">After</span>
-                            <div class="slider-handle"></div>
-                        </div>
-                    </div>
-                    <div class="service-buttons">
-                        <div class="service-btn">Emergency Care</div>
-                        <div class="service-btn">Cosmetic Dentistry</div>
-                        <div class="service-btn">Restorative Dentistry</div>
+                    <p class="hero-subtitle">Serving customers since 2010</p>
+                    <h1 class="hero-title">Expert dental care for every stage of life</h1>
+                    <p class="hero-description">
+                        We offer personalized, high-quality care in a welcoming environment. 
+                        Whether you're in for a check-up or a smile makeover, your comfort and 
+                        satisfaction are top priority.
+                    </p>
+                    <div class="hero-buttons">
+                        <button class="btn btn-outline">See what we offer</button>
+                        <button class="btn btn-primary">Contact us</button>
                     </div>
                 </div>
-            </div>
-        </div>
-    </section>
-
-    <!-- Why Choose Us Section -->
-    <section class="why-choose-us">
-        <div class="container">
-            <h2 class="section-title">Why You Should Choose Our Dental Service?</h2>
-            <div class="why-content">
-                <div class="why-image">
-                    <img src="/placeholder.svg?height=400&width=350" alt="Smiling woman" class="sparkle-image">
-                    <div class="sparkle-effects"></div>
-                </div>
-                <div class="why-features">
-                    <div class="feature-box">
-                        <div class="feature-icon">
-                            <i class="fas fa-wallet"></i>
-                        </div>
-                        <div class="feature-content">
-                            <h3>Affordable Price</h3>
-                            <p>The cost of dental care is reasonable and manageable within a person's budget.</p>
-                        </div>
-                    </div>
-                    <div class="feature-box">
-                        <div class="feature-icon">
-                            <i class="fas fa-users"></i>
-                        </div>
-                        <div class="feature-content">
-                            <h3>Professional Team</h3>
-                            <p>The team include dentists, dental hygienists, dental assistants, and administrative staff who work together to provide high-quality dental care to patients.</p>
-                        </div>
-                    </div>
-                    <div class="feature-box">
-                        <div class="feature-icon">
-                            <i class="fas fa-thumbs-up"></i>
-                        </div>
-                        <div class="feature-content">
-                            <h3>Satisfactory Service</h3>
-                            <p>The patient receives quality dental care that meets or exceeds their expectations.</p>
-                        </div>
+                <div class="hero-images">
+                    <div class="image-grid">
+                        <img src="/placeholder.svg?height=200&width=200" alt="Happy patient" class="hero-img img-1">
+                        <img src="/placeholder.svg?height=180&width=180" alt="Dental office" class="hero-img img-2">
+                        <img src="/placeholder.svg?height=160&width=160" alt="Dentist consultation" class="hero-img img-3">
+                        <img src="/placeholder.svg?height=140&width=140" alt="Dental equipment" class="hero-img img-4">
                     </div>
                 </div>
             </div>
@@ -105,152 +56,215 @@
     </section>
 
     <!-- Services Section -->
-    <section class="services">
+    <section class="services" id="services">
         <div class="container">
+            <div class="section-header">
+                <h2 class="section-title">Browse our services</h2>
+                <p class="section-subtitle">We have services you need, our experienced team will get you covered.</p>
+                <a href="#" class="view-all-link">View all services</a>
+            </div>
             <div class="services-grid">
-                <div class="service-item">
-                    <img src="/placeholder.svg?height=200&width=300" alt="Teeth Checkup">
-                    <h3>Teeth Checkup</h3>
-                </div>
-                <div class="service-item">
-                    <img src="/placeholder.svg?height=200&width=300" alt="Teeth Whitening">
-                    <h3>Teeth Whitening</h3>
-                </div>
-                <div class="service-item">
-                    <img src="/placeholder.svg?height=200&width=300" alt="Dental Braces">
-                    <h3>Dental Braces</h3>
-                </div>
-                <div class="service-item">
-                    <img src="/placeholder.svg?height=200&width=300" alt="Teeth Implants">
-                    <h3>Teeth Implants</h3>
-                </div>
-                <div class="service-item">
-                    <img src="/placeholder.svg?height=200&width=300" alt="Dental Filling">
-                    <h3>Dental Filling</h3>
-                </div>
-                <div class="service-item">
-                    <img src="/placeholder.svg?height=200&width=300" alt="Cosmetics">
-                    <h3>Cosmetics</h3>
-                </div>
-            </div>
-        </div>
-    </section>
-
-    <!-- FAQ Section -->
-    <section class="faq-section">
-        <div class="container">
-            <div class="faq-content">
-                <div class="faq-left">
-                    <h2>Got a question? Your doctor is just a click away anytime</h2>
-                    <p>Get instant answers to your dental questions from our experienced professionals.</p>
-                    <div class="faq-list">
-                        <div class="faq-item">
-                            <div class="faq-question">
-                                <span>What dental services does your clinic offer?</span>
-                                <i class="fas fa-chevron-down"></i>
-                            </div>
-                            <div class="faq-answer">
-                                <p>We offer comprehensive dental services including checkups, cleanings, fillings, crowns, implants, orthodontics, and cosmetic dentistry.</p>
-                            </div>
-                        </div>
-                        <div class="faq-item">
-                            <div class="faq-question">
-                                <span>How often should I visit the dentist?</span>
-                                <i class="fas fa-chevron-down"></i>
-                            </div>
-                            <div class="faq-answer">
-                                <p>We recommend visiting the dentist every 6 months for regular checkups and cleanings to maintain optimal oral health.</p>
-                            </div>
-                        </div>
-                        <div class="faq-item">
-                            <div class="faq-question">
-                                <span>Do you accept dental insurance?</span>
-                                <i class="fas fa-chevron-down"></i>
-                            </div>
-                            <div class="faq-answer">
-                                <p>Yes, we accept most major dental insurance plans. Please contact our office to verify your specific coverage.</p>
-                            </div>
-                        </div>
-                        <div class="faq-item">
-                            <div class="faq-question">
-                                <span>Are dental procedures painful?</span>
-                                <i class="fas fa-chevron-down"></i>
-                            </div>
-                            <div class="faq-answer">
-                                <p>We use modern techniques and anesthesia to ensure your comfort during all procedures. Most patients experience minimal discomfort.</p>
-                            </div>
-                        </div>
-                        <div class="faq-item">
-                            <div class="faq-question">
-                                <span>How can I schedule an appointment at your clinic?</span>
-                                <i class="fas fa-chevron-down"></i>
-                            </div>
-                            <div class="faq-answer">
-                                <p>You can schedule an appointment by calling our office, using our online booking system, or sending us a message through our chat service.</p>
-                            </div>
-                        </div>
+                <div class="service-card">
+                    <img src="/placeholder.svg?height=300&width=400" alt="General Cleaning" class="service-image">
+                    <div class="service-content">
+                        <h3 class="service-title">General Cleaning</h3>
                     </div>
                 </div>
-                <div class="faq-right">
-                    <div class="chat-interface">
-                        <img src="/placeholder.svg?height=300&width=250" alt="Chat Interface">
-                        <div class="chat-bubbles">
-                            <div class="chat-bubble">Hello! How can I help you today?</div>
-                            <div class="chat-bubble user">I have a question about teeth whitening</div>
-                            <div class="chat-bubble">I'd be happy to help with that!</div>
-                        </div>
-                        <div class="doctor-card">
-                            <img src="/placeholder.svg?height=60&width=60" alt="Dr. Elisha Nawara" class="doctor-photo">
-                            <div class="doctor-info">
-                                <h4>Dr. Elisha Nawara</h4>
-                                <p>Consult your dental problems at Dentica online service</p>
-                            </div>
-                        </div>
-                        <button class="message-button">SEND A MESSAGE</button>
+                <div class="service-card">
+                    <img src="/placeholder.svg?height=300&width=400" alt="Whitening" class="service-image">
+                    <div class="service-content">
+                        <h3 class="service-title">Whitening</h3>
                     </div>
                 </div>
-            </div>
-        </div>
-    </section>
-
-    <!-- Testimonials Section -->
-    <section class="testimonials">
-        <div class="container">
-            <div class="testimonial-content">
-                <img src="/placeholder.svg?height=80&width=80" alt="Jessica William" class="testimonial-photo">
-                <div class="testimonial-text">
-                    <blockquote>"Best dental clinic I've been to. Friendly staff, knowledgeable dentists, and the latest technology. Highly recommend!"</blockquote>
-                    <cite>Jessica William, award-winning best actress</cite>
+                <div class="service-card">
+                    <img src="/placeholder.svg?height=300&width=400" alt="Cosmetic Dentistry" class="service-image">
+                    <div class="service-content">
+                        <h3 class="service-title">Cosmetic Dentistry</h3>
+                    </div>
+                </div>
+                <div class="service-card">
+                    <img src="/placeholder.svg?height=300&width=400" alt="Dental Implants" class="service-image">
+                    <div class="service-content">
+                        <h3 class="service-title">Dental Implants</h3>
+                    </div>
+                </div>
+                <div class="service-card">
+                    <img src="/placeholder.svg?height=300&width=400" alt="Orthodontics" class="service-image">
+                    <div class="service-content">
+                        <h3 class="service-title">Orthodontics</h3>
+                    </div>
                 </div>
             </div>
         </div>
     </section>
 
     <!-- Team Section -->
-    <section class="team">
+    <section class="team" id="team">
         <div class="container">
-            <h2 class="section-title">Our Expert Team</h2>
-            <p class="section-subtitle">Meet our experienced dental professionals dedicated to your oral health</p>
+            <div class="section-header">
+                <h2 class="section-title">Meet the team</h2>
+                <p class="section-subtitle">Our team of experts are dedicated to providing the highest level of care.</p>
+                <a href="#" class="view-all-link">View full team</a>
+            </div>
             <div class="team-grid">
-                <div class="team-member">
-                    <img src="/placeholder.svg?height=200&width=200" alt="Reza Mahendra" class="team-photo">
-                    <h3>Reza Mahendra</h3>
-                    <p>Dentist</p>
+                <div class="team-card">
+                    <img src="/placeholder.svg?height=300&width=300" alt="Clark Richards" class="team-image">
+                    <div class="team-info">
+                        <div class="experience-badge">15 years experience</div>
+                        <h3 class="team-name">Clark Richards</h3>
+                        <p class="team-role">Dentist - DDS</p>
+                    </div>
                 </div>
-                <div class="team-member">
-                    <img src="/placeholder.svg?height=200&width=200" alt="Merliana Sari" class="team-photo">
-                    <h3>Merliana Sari</h3>
-                    <p>Dentist</p>
+                <div class="team-card">
+                    <img src="/placeholder.svg?height=300&width=300" alt="Beckie Harris" class="team-image">
+                    <div class="team-info">
+                        <div class="experience-badge">12 years experience</div>
+                        <h3 class="team-name">Beckie Harris</h3>
+                        <p class="team-role">Dentist - DDS</p>
+                    </div>
                 </div>
-                <div class="team-member">
-                    <img src="/placeholder.svg?height=200&width=200" alt="Daniel Thompson" class="team-photo">
-                    <h3>Daniel Thompson</h3>
-                    <p>Dentist</p>
+                <div class="team-card">
+                    <img src="/placeholder.svg?height=300&width=300" alt="Craig Boilly" class="team-image">
+                    <div class="team-info">
+                        <div class="experience-badge">10 years experience</div>
+                        <h3 class="team-name">Craig Boilly</h3>
+                        <p class="team-role">Dentist - DDS</p>
+                    </div>
                 </div>
-                <div class="team-member">
-                    <img src="/placeholder.svg?height=200&width=200" alt="James Brown" class="team-photo">
-                    <h3>James Brown</h3>
-                    <p>Dentist</p>
+            </div>
+        </div>
+    </section>
+
+    <!-- Reviews Section -->
+    <section class="reviews">
+        <div class="container">
+            <div class="section-header">
+                <h2 class="section-title">Read our reviews</h2>
+                <p class="section-subtitle">We take pride in exceeding customer expectations, every single visit.</p>
+            </div>
+            <div class="reviews-content">
+                <div class="google-rating">
+                    <div class="google-logo">G</div>
+                    <div class="rating-info">
+                        <div class="rating-score">4.8</div>
+                        <div class="rating-text">rating on Google</div>
+                        <div class="rating-subtext">reviews and great service</div>
+                    </div>
+                </div>
+                <div class="reviews-grid">
+                    <div class="review-card">
+                        <div class="stars">★★★★★</div>
+                        <p class="review-text">The team was incredibly professional and kind. The staff was very welcoming and made me feel comfortable.</p>
+                        <p class="reviewer-name">Nate S.</p>
+                    </div>
+                    <div class="review-card">
+                        <div class="stars">★★★★★</div>
+                        <p class="review-text">From start to finish, my experience was fantastic. The team is professional, skilled, and genuinely caring. I felt confident about my dental care.</p>
+                        <p class="reviewer-name">Emma T.</p>
+                    </div>
+                    <div class="review-card">
+                        <div class="stars">★★★★★</div>
+                        <p class="review-text">The office was clean, the staff was friendly, and the service was excellent. I would definitely recommend them to friends and family.</p>
+                        <p class="reviewer-name">Mike K.</p>
+                    </div>
+                    <div class="review-card">
+                        <div class="stars">★★★★★</div>
+                        <p class="review-text">Excellent care was outstanding. The entire team was professional about my dental care.</p>
+                        <p class="reviewer-name">Emma T.</p>
+                    </div>
+                    <div class="review-card">
+                        <div class="stars">★★★★★</div>
+                        <p class="review-text">They are professional, kind, and genuinely care about their patients. I felt comfortable throughout my visit.</p>
+                        <p class="reviewer-name">Natalie H.</p>
+                    </div>
+                    <div class="review-card">
+                        <div class="stars">★★★★★</div>
+                        <p class="review-text">The service provided was outstanding. The entire team was professional and made me feel at ease.</p>
+                        <p class="reviewer-name">Charles S.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section class="contact" id="contact">
+        <div class="container">
+            <div class="contact-content">
+                <div class="contact-info">
+                    <h2 class="section-title">Contact us</h2>
+                    <p class="section-subtitle">We would love to hear from you, please reach out to us anytime!</p>
+                    
+                    <div class="contact-methods">
+                        <div class="contact-method">
+                            <div class="contact-icon">📞</div>
+                            <div class="contact-details">
+                                <h4>Call us</h4>
+                                <p>801-555-1234</p>
+                            </div>
+                        </div>
+                        <div class="contact-method">
+                            <div class="contact-icon">✉️</div>
+                            <div class="contact-details">
+                                <h4>Email us</h4>
+                                <p>hello@smilebright.com</p>
+                            </div>
+                        </div>
+                        <div class="contact-method">
+                            <div class="contact-icon">📅</div>
+                            <div class="contact-details">
+                                <h4>Get an appointment</h4>
+                                <p>Book a session</p>
+                            </div>
+                        </div>
+                        <div class="contact-method">
+                            <div class="contact-icon">📍</div>
+                            <div class="contact-details">
+                                <h4>Visit us</h4>
+                                <p>527 Crentist Ave, Lehi UT 84043</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                
+                <div class="office-hours">
+                    <h3>Office hours</h3>
+                    <div class="hours-list">
+                        <div class="hours-item">
+                            <span>Monday</span>
+                            <span>8:00am - 5:00pm</span>
+                        </div>
+                        <div class="hours-item">
+                            <span>Tuesday</span>
+                            <span>8:00am - 5:00pm</span>
+                        </div>
+                        <div class="hours-item">
+                            <span>Wednesday</span>
+                            <span>8:00am - 5:00pm</span>
+                        </div>
+                        <div class="hours-item">
+                            <span>Thursday</span>
+                            <span>8:00am - 5:00pm</span>
+                        </div>
+                        <div class="hours-item">
+                            <span>Friday</span>
+                            <span>8:00am - 5:00pm</span>
+                        </div>
+                        <div class="hours-item">
+                            <span>Saturday</span>
+                            <span>Closed</span>
+                        </div>
+                        <div class="hours-item">
+                            <span>Sunday</span>
+                            <span>Closed</span>
+                        </div>
+                    </div>
+                    
+                    <div class="social-links">
+                        <a href="#" class="social-link">📘</a>
+                        <a href="#" class="social-link">📷</a>
+                        <a href="#" class="social-link">🐦</a>
+                    </div>
                 </div>
             </div>
         </div>
@@ -260,48 +274,37 @@
     <footer class="footer">
         <div class="container">
             <div class="footer-content">
-                <div class="footer-left">
-                    <h2 class="footer-logo">DENTICA</h2>
-                    <p>We are experienced and internationally certified healthcare workers</p>
-                    <div class="footer-contact">
-                        <p><i class="fas fa-map-marker-alt"></i> 605 Park Drive, New York</p>
-                        <p><i class="fas fa-phone"></i> (555) 123-4567</p>
-                        <p><i class="fas fa-phone"></i> (555) 987-6543</p>
-                    </div>
-                </div>
-                <div class="footer-right">
-                    <h3>Schedule</h3>
-                    <div class="schedule-table">
-                        <div class="schedule-row">
-                            <span>Monday</span>
-                            <span>9:00 AM - 6:00 PM</span>
-                        </div>
-                        <div class="schedule-row">
-                            <span>Tuesday</span>
-                            <span>9:00 AM - 6:00 PM</span>
-                        </div>
-                        <div class="schedule-row">
-                            <span>Wednesday</span>
-                            <span>9:00 AM - 6:00 PM</span>
-                        </div>
-                        <div class="schedule-row">
-                            <span>Thursday</span>
-                            <span>9:00 AM - 6:00 PM</span>
-                        </div>
-                        <div class="schedule-row">
-                            <span>Friday</span>
-                            <span>9:00 AM - 6:00 PM</span>
-                        </div>
-                        <div class="schedule-row">
-                            <span>Saturday</span>
-                            <span>9:00 AM - 4:00 PM</span>
-                        </div>
-                        <div class="schedule-row">
-                            <span>Sunday</span>
-                            <span>Closed</span>
+                <div class="footer-brand">
+                    <div class="logo">
+                        <div class="logo-icon">🦷</div>
+                        <div class="footer-text">
+                            <h3>Brighter smiles.</h3>
+                            <h3>Brighter lives.</h3>
                         </div>
                     </div>
                 </div>
+                
+                <div class="footer-links">
+                    <div class="footer-column">
+                        <h4>Company</h4>
+                        <a href="#about">About us</a>
+                        <a href="#services">Services</a>
+                        <a href="#team">The team</a>
+                        <a href="#contact">Contact us</a>
+                    </div>
+                    <div class="footer-column">
+                        <h4>Smilebright</h4>
+                        <p>527 Crentist Ave</p>
+                        <p>Lehi UT 84043</p>
+                        <br>
+                        <p>p: 801-555-1234</p>
+                        <p>e: hello@smilebright.com</p>
+                    </div>
+                </div>
+            </div>
+            
+            <div class="footer-bottom">
+                <p>© SmileBright Dental • All rights reserved</p>
             </div>
         </div>
     </footer>
